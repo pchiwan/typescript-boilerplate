@@ -1,2 +1,4 @@
-# typescript-boilerplate
-Boilerplate for a Typescript+Webpack project
+# Typescript Boilerplate
+Boilerplate for a Typescript project
+
+## Here's the exercise

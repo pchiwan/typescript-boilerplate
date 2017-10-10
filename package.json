@@ -1,0 +1,22 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for a Typescript project",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "silvia.mur@typeform.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.0.37",
+    "@types/node": "^8.0.33",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
