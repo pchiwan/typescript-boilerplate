@@ -7,7 +7,7 @@ const app = express()
 
 app.get('/', ((req, res) => {
   res.status(HTTP_OK)
-  res.send('Hello world!')
+  res.send('To infinity and beyond!')
 }))
 
 app.listen(PORT, () => {
