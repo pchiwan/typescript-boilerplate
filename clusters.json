@@ -1394,4 +1394,213 @@
         "radius": "25,957 km"
       }]
     }]
+  },
+  {
+    "name": "Athena Nebula",
+    "systems": [
+    {
+      "name": "Ialessa",
+      "stellarMass": "0.968 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Ilmnos",
+        "dayLength": "0.4 Earth Hours",
+        "orbitalPeriod": "22.5 Earth Years",
+        "temp": "183 \u00b0C",
+        "radius": "6,528 km"
+      },
+      {
+        "name": "Nossia",
+        "dayLength": "54.1 Earth Hours",
+        "orbitalPeriod": "81.1 Earth Years",
+        "temp": "-146 \u00b0C",
+        "radius": "10,909 km"
+      },
+      {
+        "name": "Sanves",
+        "dayLength": "51.8 Earth Hours",
+        "orbitalPeriod": "1.6 Earth Years",
+        "temp": "25 \u00b0C",
+        "radius": "7,484 km"
+      },
+      {
+        "name": "Trikalon",
+        "dayLength": "59.4  Earth Hours",
+        "orbitalPeriod": "31.7 Earth Years",
+        "temp": "-87 \u00b0C",
+        "radius": "1,905 km"
+      },
+      {
+        "name": "Zylium",
+        "dayLength": "9.8 Earth Hours",
+        "orbitalPeriod": "11.2 Earth Years",
+        "temp": "N\/A",
+        "radius": "63,511 km"
+      }]
+    },
+    {
+      "name": "Orisoni",
+      "stellarMass": "0.991 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Egalic",
+        "dayLength": "19.2 Earth Hours",
+        "orbitalPeriod": "16.6 Earth Years",
+        "temp": "N\/A",
+        "radius": "69,039 km"
+      },
+      {
+        "name": "Kralla",
+        "dayLength": "48.6 Earth Hours",
+        "orbitalPeriod": "5.6 Earth Years",
+        "temp": "-93 \u00b0C",
+        "radius": "5,879 km"
+      },
+      {
+        "name": "Niacal",
+        "dayLength": "35.3 Earth Hours",
+        "orbitalPeriod": "2.6 Earth Years",
+        "temp": "54 \u00b0C",
+        "radius": "11,397 km"
+      },
+      {
+        "name": "Thissioni",
+        "dayLength": "46.9 Earth Hours",
+        "orbitalPeriod": "1 Earth Years",
+        "temp": "55 \u00b0C",
+        "radius": "6,039 km"
+      }]
+    },
+    {
+      "name": "Parnitha",
+      "stellarMass": "N\/A",
+      "stellarClass": "N\/A",
+      "planets": [
+      {
+        "name": "Athame",
+        "dayLength": "18.7 Earth Hours",
+        "orbitalPeriod": "48.6 Earth Years",
+        "temp": "N\/A",
+        "radius": "64,549 km"
+      },
+      {
+        "name": "Janiri",
+        "dayLength": "8.8 Earth Hours",
+        "orbitalPeriod": "17.0 Earth Years",
+        "temp": "N\/A",
+        "radius": "54,704 km"
+      },
+      {
+        "name": "Kurinth",
+        "dayLength": "57.5 Earth Hours",
+        "orbitalPeriod": "0.3 Earth Years",
+        "temp": "734 \u00b0C",
+        "radius": "4,103 km"
+      },
+      {
+        "name": "Lucen",
+        "dayLength": "35.4 Earth Hours",
+        "orbitalPeriod": "6.3 Earth Years",
+        "temp": "-100 \u00baC",
+        "radius": "556 km"
+      },
+      {
+        "name": "Piares",
+        "dayLength": "35.5 Earth Hours",
+        "orbitalPeriod": "2.3 Earth Years",
+        "temp": "61 \u00baC",
+        "radius": "5,984 km"
+      },
+      {
+        "name": "Tevura",
+        "dayLength": "15.5 Earth Hours",
+        "orbitalPeriod": "120.9 Earth Years",
+        "temp": "N\/A",
+        "radius": "26,655 km"
+      },
+      {
+        "name": "Thessia",
+        "dayLength": "27.6 Earth Hours",
+        "orbitalPeriod": "0.9 Earth Years",
+        "temp": "25 \u00baC",
+        "radius": "5,940 km"
+      }]
+    },
+    {
+      "name": "Tomaros",
+      "stellarMass": "1.006 Sol Masses",
+      "stellarClass": "G",
+      "planets": [
+      {
+        "name": "Beness",
+        "dayLength": "11.1 Earth Hours",
+        "orbitalPeriod": "89 Earth Years",
+        "temp": "N\/A",
+        "radius": "18,809 km"
+      },
+      {
+        "name": "Lusia",
+        "dayLength": "57.4 Earth Hours",
+        "orbitalPeriod": "4.1 Earth Years",
+        "temp": "12 \u00baC",
+        "radius": "8,479 km"
+      },
+      {
+        "name": "Niagolon",
+        "dayLength": "10.1 Earth Hours",
+        "orbitalPeriod": "14 Earth Years",
+        "temp": "N\/A",
+        "radius": "58,382 km"
+      },
+      {
+        "name": "Pronoia",
+        "dayLength": "11.1 Earth Hours",
+        "orbitalPeriod": "31.8 Earth Years",
+        "temp": "N\/A",
+        "radius": "16,105 km"
+      }]
+    },
+    {
+      "name": "Vernio",
+      "stellarMass": "1.657 Sol Masses",
+      "stellarClass": "FV",
+      "planets": [
+      {
+        "name": "Nauti",
+        "dayLength": "54.4 Earth Hours",
+        "orbitalPeriod": "0.5 Earth Years",
+        "temp": "1,300 \u00baC",
+        "radius": "10,081 km"
+      },
+      {
+        "name": "Polissa",
+        "dayLength": "15.5 Earth Hours",
+        "orbitalPeriod": "60.2 Earth Years",
+        "temp": "N\/A",
+        "radius": "51,136 km"
+      },
+      {
+        "name": "Promavess",
+        "dayLength": "57.1 Earth Hours",
+        "orbitalPeriod": "1.3 Earth Years",
+        "temp": "633 \u00baC",
+        "radius": "6,563 km"
+      },
+      {
+        "name": "Sotera",
+        "dayLength": "22.4 Earth Hours",
+        "orbitalPeriod": "1.2 Earth Years",
+        "temp": "219 \u00baC",
+        "radius": "5,069 km"
+      },
+      {
+        "name": "Tritogenith",
+        "dayLength": "11.3 Earth Hours",
+        "orbitalPeriod": "27.3 Earth Years",
+        "temp": "N\/A",
+        "radius": "52,103 km"
+      }]
+    }]
   }]
