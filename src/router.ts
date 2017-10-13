@@ -14,12 +14,12 @@ router.get('/', ((req, res) => {
   res.send('To infinity and beyond!')
 }))
 
-router.get('/api/clusters/{clusterName}/systems', (req, res) => {
+router.get('/clusters/:clusterName/systems', (req, res) => {
   res.status(HTTP_OK)
   res.send(getClusterSummary(req.params.clusterName))
 })
 
-router.get('/api/locate/{planetName}', ((req, res) => {
+router.get('/locate/:planetName', ((req, res) => {
   res.status(HTTP_OK)
   res.send(locatePlanet(req.params.planetName))
 }))
