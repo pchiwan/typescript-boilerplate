@@ -1,5 +1,5 @@
-# Typescript Boilerplate
-Boilerplate for a Typescript project
+# Typescript Workshop
+Boilerplate for a Typescript workshop
 
 ## Exercise
 
@@ -31,6 +31,13 @@ interface System {
   ...
 }
 ```
+
+#### Examples
+- `/api/locate/Thessia` => _Athena Nebula -> Parnitha -> Thessia_
+
+- `/api/locate/Earth` => _Local Cluster -> Sol -> Earth_
+
+**Note**: Keep case sensitivy in mind! ☝️
 
 ### `/api/gasgiants`
 Get a list of all the gas giants in the galaxy. Gas giants have no surface temperature, so their `temp` is set to `N/A`.

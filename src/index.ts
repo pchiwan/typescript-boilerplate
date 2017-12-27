@@ -1,7 +1,7 @@
 import * as express from 'express'
 
 const HTTP_OK = 200
-const PORT = 3000
+const PORT = 4000
 
 const app = express()
 
