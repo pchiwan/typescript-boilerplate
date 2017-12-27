@@ -2,47 +2,42 @@ import db from './db'
 import { ICluster, ISystem, IPlanet } from './models/interfaces'
 
 function getAllPlanets (): IPlanet[] {
-  const planets: IPlanet[] = []
-  db.forEach((cluster:ICluster) => {
-    planets.push(...getAllClusterPlanets(cluster))
-  })
-  return planets
+  return db.reduce((value: IPlanet[], cluster: ICluster) => [...value, ...getAllClusterPlanets(cluster)], [])
 }
 
 function getAllClusterPlanets (cluster: ICluster): IPlanet[] {
-  const planets: IPlanet[] = []
-  cluster.systems.forEach((system: ISystem) => planets.push(...system.planets))
-  return planets
+  return cluster.systems.reduce((value: IPlanet[], system: ISystem) => [...value, ...system.planets], [])
 }
 
 function findCluster (clusterName: string): ICluster {
-  return db.find((c: ICluster) => c.name === clusterName)
+  return db.find((cluster: ICluster) => cluster.name === clusterName)
 }
 
 function traverseGalaxy (planetName: string, i: number = 0): ICluster {
   if (i === db.length) return null
   const system = traverseCluster(planetName, db[i])
-  if (system !== null) return {
-    ...db[i],
-    systems: [system]
-  }
-  return traverseGalaxy(planetName, ++i)
+  return system !== null
+    ? { ...db[i], systems: [system] }
+    : traverseGalaxy(planetName, ++i)
 }
 
 function traverseCluster (planetName: string, cluster: ICluster, i: number = 0): ISystem {
   if (i === cluster.nSystems) return null
   const planet = traverseSystem(planetName, cluster.systems[i])
-  if (planet !== null) return {
-    ...cluster.systems[i],
-    planets: [planet]
-  }
-  return traverseCluster(planetName, cluster, ++i)
+  return planet !== null
+    ? { ...cluster.systems[i], planets: [planet] }
+    : traverseCluster(planetName, cluster, ++i)
 }
 
 function traverseSystem (planetName: string, system: ISystem, i: number = 0): IPlanet {
   if (i === system.nPlanets) return null
-  if (system.planets[i].name === planetName) return system.planets[i]
-  return traverseSystem(planetName, system, ++i)
+  return system.planets[i].name === planetName
+    ? system.planets[i]
+    : traverseSystem(planetName, system, ++i)
+}
+
+function flattenGalaxy<T> (iteratorFn: (cluster: ICluster) => T[]) : T[] {
+  return db.reduce((value: T[], cluster: ICluster) => [...value, ...iteratorFn(cluster)], [])
 }
 
 export function getClusterSummary (clusterName: string) {
