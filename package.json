@@ -4,9 +4,8 @@
   "description": "Boilerplate for a Typescript project",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node ./dist/index.js",
-    "build": "tsc",
-    "watch": "tsc --watch",
+    "serve": "node ./dist/index.js",
+    "start": "tsc --sourceMap --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "silvia.mur@typeform.com",
