@@ -4,7 +4,9 @@
   "description": "Boilerplate for a Typescript project",
   "main": "dist/index.js",
   "scripts": {
-    "serve": "node ./dist/index.js",
+    "build": "tsc --outDir galaxy-explorer",
+    "deploy": "npm run build && cd galaxy-explorer && now",
+    "serve": "PORT=4000 nodemon ./dist/index.js",
     "start": "tsc --sourceMap --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

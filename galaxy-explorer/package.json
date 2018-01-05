@@ -1,0 +1,14 @@
+{
+  "name": "galaxy-explorer",
+  "version": "1.0.0",
+  "description": "A galaxy exploration API",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3000 node ./index.js"
+  },
+  "author": "silvia.mur@typeform.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

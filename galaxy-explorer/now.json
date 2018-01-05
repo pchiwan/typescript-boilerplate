@@ -1,0 +1,6 @@
+{
+  "name": "galaxy-explorer",
+  "description": "A galaxy exploration API",
+  "type": "node",
+  "alias": "galaxy-explorer"
+}
